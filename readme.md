@@ -49,6 +49,6 @@ This project can be run directly from Docker Hub without building locally.
 
 2. **Run the container**
 
-docker run -it -p 3000:3000 omkarkhot0500/dep-website:latest
+docker run -it -p 3000:3000 whysoserious1022/dep-website:latest
 
 # The app will be available at http://localhost:3000
