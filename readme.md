@@ -7,21 +7,32 @@ A **React-based frontend project** showcasing student club activities, events, a
 
 Student-Club/
 ├── public/
-│   └── index.html
+│   ├── index.html
+│   ├── favicon.ico
+│   └── assets/
+│       ├── images/
+│       └── logos/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.js
 │   │   ├── Hero.js
 │   │   ├── EventCard.js
-│   │   └── Footer.js
+│   │   ├── Footer.js
+│   │   └── Modal.js
 │   ├── css/
 │   │   ├── App.css
-│   │   └── components.css
+│   │   ├── Navbar.css
+│   │   ├── Hero.css
+│   │   ├── EventCard.css
+│   │   └── Footer.css
 │   ├── App.js
-│   └── index.js
+│   ├── index.js
+│   ├── reportWebVitals.js
+│   └── setupTests.js
 ├── package.json
 ├── package-lock.json
 └── README.md
+
 
 ## ⚡ Features
 
