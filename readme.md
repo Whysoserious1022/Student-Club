@@ -44,9 +44,6 @@ npm run build
 Generates a /build folder with static HTML, CSS, and JS
 Ready to deploy on any static hosting platform
 
-📝 License
-
-GPL-3.0 License
 
 👨‍💻 Author
 
