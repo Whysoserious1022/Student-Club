@@ -1,54 +1,54 @@
-# Installation and Setup
+# Student-Club Frontend
 
-- Fork the repo and clone it
-  ```bash
-  git clone
-  ```
+A **React-based frontend project** showcasing student club activities, events, and creative content. This project demonstrates modern frontend development, component-based architecture, and responsive design.
 
-## Set up the client side
 
-```bash
-cd frontend
+## 📂 Project Structure
+
+Student-Club/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ ├── css/
+│ └── App.js
+├── package.json
+├── package-lock.json
+└── README.md
+
+
+## ⚡ Features
+
+- React-based component architecture
+- Responsive design for mobile, tablet, and desktop
+- Interactive UI for exploring student club activities
+- Easy deployment as static frontend
+- Optional: Can be enhanced with routing, authentication, and dynamic content
+
+
+## 🚀 Getting Started (Development)
+
+### 1. Prerequisites
+- Node.js (v16 or higher)
+- npm (comes with Node.js)
+
+### 2. Install dependencies
 npm install
-npm run dev
-```
 
-## Docker Set up ( Local )
+3. Run development server
+npm start
+Opens at http://localhost:3000
+Supports hot-reloading for live development
 
-# 1. Clone the project
+4. Build for production
+npm run build
+Generates a /build folder with static HTML, CSS, and JS
+Ready to deploy on any static hosting platform
 
-git clone
-cd frontend
+📝 License
 
-# 2. Build the Docker image and run the container
+GPL-3.0 License
 
-docker-compose up --build
+👨‍💻 Author
 
-# The app will be available at http://localhost:3000
-
-## Docker Set up ( hub.docker.com )
-
-# Deployment Website (Docker)
-
-This project can be run directly from Docker Hub without building locally.
-
-## Prerequisites
-
-- Install [Docker](https://docs.docker.com/get-docker/)
-- Make sure Docker is running on your system
-- Internet connection (to pull the image)
-
-## Steps to Run
-
-1. **Pull the latest image from Docker Hub**
-
-   ```bash
-   docker pull whysoserious1022/dep-website:latest
-
-   ```
-
-2. **Run the container**
-
-docker run -it -p 3000:3000 whysoserious1022/dep-website:latest
-
-# The app will be available at http://localhost:3000
+Dayanand SG
