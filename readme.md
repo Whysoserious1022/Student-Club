@@ -43,7 +43,7 @@ This project can be run directly from Docker Hub without building locally.
 1. **Pull the latest image from Docker Hub**
 
    ```bash
-   docker pull omkarkhot0500/dep-website:latest
+   docker pull whysoserious1022/dep-website:latest
 
    ```
 
